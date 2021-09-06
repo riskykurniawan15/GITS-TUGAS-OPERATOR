@@ -39,7 +39,7 @@ func main(){
 func GBP_KNUT() {
 	var GBP int
 	fmt.Println("===========================================")
-	fmt.Println("          GBP -> KNUT")
+	fmt.Println("       GBP -> KNUT, SICKLE, GALLEON")
 	fmt.Println("===========================================")
 	fmt.Print("Masukan Jumlah GB Pounds : ")
 	fmt.Scan(&GBP)

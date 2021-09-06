@@ -27,7 +27,7 @@ func main(){
 	}else if menu == 3 {
 		GBP_KNUT()
 	}else{
-		fmt.Print("Menu pilihan tidak tersedia")
+		fmt.Println("Menu pilihan tidak tersedia")
 	}
 
 	fmt.Println("===========================================")

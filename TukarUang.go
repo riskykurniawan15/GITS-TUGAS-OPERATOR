@@ -14,7 +14,7 @@ func main(){
 	fmt.Println("Silahkan pilih menu penukaran uang")
 	fmt.Println("1. Rupiah ke Dollar")
 	fmt.Println("2. Rupiah ke Euro")
-	fmt.Println("3. GBP ke Knut")
+	fmt.Println("3. GBP ke Knut, Sickle, Galleon")
 	fmt.Println("===========================================")
 	fmt.Print("Ketikan nomor menu pilihan anda : ")
 	fmt.Scan(&menu)

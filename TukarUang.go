@@ -41,17 +41,17 @@ func GBP_KNUT() {
 	fmt.Println("===========================================")
 	fmt.Println("       GBP -> KNUT, SICKLE, GALLEON")
 	fmt.Println("===========================================")
-	fmt.Print("Masukan Jumlah GB Pounds : ")
+	fmt.Print("Masukan Jumlah GB Pounds    : ")
 	fmt.Scan(&GBP)
 	var knut int = GBP*100
-	fmt.Println("Jumlah Knut yang didapat = ", knut)
+	fmt.Println("Jumlah Knut yang didapat    = ", knut)
 	var galleon int = (knut / 29) / 17
 	var sisa_knut int = knut - ((galleon * 17) * 29)
 	var sickle int = sisa_knut / 29
 	sisa_knut = sisa_knut - (29 * sickle)
-	fmt.Println("Hasil penukaran mendapat = ", galleon, " Galleon (s)")
-	fmt.Println("Sisa ditukar menjadi     = ", sickle, " Sickle (s)")
-	fmt.Println("Keping knut yang tersisa = ", sisa_knut, " Knut (s)")
+	fmt.Println("Hasil penukaran mendapatkan = ", galleon, " Galleon (s)")
+	fmt.Println("Sisa ditukar menjadi        = ", sickle, " Sickle (s)")
+	fmt.Println("Keping knut yang tersisa    = ", sisa_knut, " Knut (s)")
 	fmt.Println("===========================================")
 }
 
